@@ -1,4 +1,4 @@
-# NEXUS_PROJECT
+# NULLPOINTERS
 It is an internship Project.
 # TO RUN THE PROJECT
 Download the Folder and Open Folder in any VS Code IDE or Any
