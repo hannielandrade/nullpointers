@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <form action="/result" method="post">
+            <label for="keyword">Enter a keyword:</label>
+            <input type="text" id="keyword" name="keyword" class="input-field">
+            <button type="submit" class="btn">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>
